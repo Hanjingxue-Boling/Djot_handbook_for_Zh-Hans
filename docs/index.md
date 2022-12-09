@@ -25,3 +25,9 @@ $ cd djot
 $ luarocks install --local djot
 $ djot -h
 ```
+
+## 其他
+
+- [安装 Djot](./prepare/install.md)
+- [术语表](./about/Glossary.md)
+- [许可证清单](./about/licenses-list.md)

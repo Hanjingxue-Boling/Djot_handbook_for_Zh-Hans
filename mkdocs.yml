@@ -42,6 +42,7 @@ nav:
       - syntax-guide/markdown-quick-switch.md
     - 关于: 
       - about/licenses-list.md
+      - about/Glossary.md
 
 markdown_extensions:
   #启用缩略语
