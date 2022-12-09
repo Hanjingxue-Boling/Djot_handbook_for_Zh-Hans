@@ -1,6 +1,6 @@
-site_name: 寒晶雪的文档站
+site_name: Djot 用户手册
 site_url: https://hanjingxue-boling.github.io/Djot_handbook_for_Zh-Hans
-site_description: Hanjingxue 的个人在线文档站。
+site_description: Djot 用户手册汉化版
 site_author: Hanjingxue Boling
 
 repo_name: Source Code
@@ -29,11 +29,13 @@ theme:
     features:
       - navigation.tabs
       - content.tabs.link #启用内容页
-    logo: assets/fox.png
 
 nav:
-    - 欢迎！: intro.md
     - index.md
+    - 准备内容:
+        - prepare/rationale.md
+    - 关于: 
+        - about/licenses-list.md
 
 markdown_extensions:
   #启用缩略语
