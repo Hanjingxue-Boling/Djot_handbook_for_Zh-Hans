@@ -1,4 +1,4 @@
-# Djot 
+# Welcome!
 
 !!! warning "注意"
     - 你当前所看到的内容还处于非常早期的制作阶段。  
@@ -8,8 +8,8 @@
 >—— [John MacFarlane](https://johnmacfarlane.net/index.html)
 
 - [设计目标和对设计决定的解释](./prepare/rationale.md)
-- 语法描述
-- Markdown 用户的快速入门
+- [语法描述](./syntax-guide/index.md)
+- [Markdown 用户的快速入门](./syntax-guide/markdown-quick-switch.md)
 - [Live Sandbox](https://djot.net/playground/)
 - [源代码](https://github.com/jgm/djot)，包括：
     - 一个非常快速的纯 Lua 解析器；  

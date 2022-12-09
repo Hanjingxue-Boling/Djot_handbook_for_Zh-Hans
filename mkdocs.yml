@@ -33,9 +33,15 @@ theme:
 nav:
     - index.md
     - 准备内容:
-        - prepare/rationale.md
+      - prepare/rationale.md
+      - prepare/install.md
+    - Djot 语法参考:  
+      - syntax-guide/index.md 
+      - syntax-guide/Inline-syntax.md
+      - syntax-guide/Block-syntax.md
+      - syntax-guide/markdown-quick-switch.md
     - 关于: 
-        - about/licenses-list.md
+      - about/licenses-list.md
 
 markdown_extensions:
   #启用缩略语
