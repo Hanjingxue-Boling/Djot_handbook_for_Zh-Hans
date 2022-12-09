@@ -1,0 +1,82 @@
+site_name: 寒晶雪的文档站
+site_url: https://hanjingxue-boling.github.io/Djot_handbook_for_Zh-Hans
+site_description: Hanjingxue 的个人在线文档站。
+site_author: Hanjingxue Boling
+
+repo_name: Source Code
+repo_url: https://github.com/Hanjingxue-Boling/Djot_handbook_for_Zh-Hans  #仓库链接
+edit_uri: ""
+
+theme:
+    name: material
+    language: zh    
+    highlightjs: true
+    palette:
+      - media: "(prefers-color-scheme: light)" 
+        scheme: default
+        primary: blue grey
+        accent: light green
+        toggle:
+          icon: material/weather-night
+          name: 切换到深色模式
+      - media: "(prefers-color-scheme: dark)" 
+        scheme: slate
+        primary: black
+        accent: light green
+        toggle:
+          icon: material/weather-sunny
+          name: 切换到浅色模式
+    features:
+      - navigation.tabs
+      - content.tabs.link #启用内容页
+    logo: assets/fox.png
+
+nav:
+    - 欢迎！: intro.md
+    - index.md
+
+markdown_extensions:
+  #启用缩略语
+  - abbr
+  - pymdownx.snippets
+  #启用警示标识
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences 
+  #启用注释
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  #启用按钮
+  - attr_list
+  #启用内容页
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  #启用脚注
+  - footnotes
+  #启用文本格式化
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  #启用图片
+  - attr_list
+  - md_in_html
+  #启用列表
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  #启用图标 https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  homepage: https://github.com/Hanjingxue-Boling/Djot_handbook_for_Zh-Hans
+
+copyright: Licensed distribution based on CC BY-SA-NC 4.0, Hanjingxue Boling.
