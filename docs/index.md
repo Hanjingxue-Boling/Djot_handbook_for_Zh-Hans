@@ -10,7 +10,7 @@
 - [设计目标和对设计决定的解释](./prepare/rationale.md)
 - [语法描述](./syntax-guide/index.md)
 - [Markdown 用户的快速入门](./syntax-guide/markdown-quick-switch.md)
-- [Live Sandbox](https://djot.net/playground/)
+- [Live Sandbox](https://djot.net/playground/)：在线尝试 Djot
 - [源代码](https://github.com/jgm/djot)，包括：
     - 一个非常快速的纯 Lua 解析器；  
     - 自定义 pandoc 阅读器，允许将 djot 文档转换为 pandoc 支持的任何格式；  
